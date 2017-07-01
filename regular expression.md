@@ -1,6 +1,6 @@
 ## None greedy mode
 
-
+**MDN**: [Question mark](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#special-questionmark)
 
 
 Example: Get all words inside <span> tag.
