@@ -1,16 +1,16 @@
-## None greedy mode
+## Greedy mode
 
 **MDN**: [Question mark](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#special-questionmark)
 
 
-Example: Get all words inside <span> tag.
+Example: Get all words inside `<span>` tag.
 
 ```js
 
 // sample data
-var input = "<span>Hello, </span><span>World</span>";
+var input = "<span>A</span><span>B</span>";
 
-// greed mode (default mode of regular expression)
+// greedy mode (default)
 var greedyRegx = /\<span\>(.*)\<\/span\>/g;
 input.match(greedyRegx);
 
